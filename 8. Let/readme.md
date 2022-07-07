@@ -79,5 +79,3 @@ var x = 3     // Not allowed
 let carName;
 document.getElementById("demo").innerHTML = carName; //undefined
 ```
-```
-```
