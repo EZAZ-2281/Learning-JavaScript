@@ -1,7 +1,3 @@
-<style>
-    font-family:verdana; 
-    font-size:18px; 
-</style>
 ```
 JavaScript Values
 The JavaScript syntax defines two types of values:
