@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Const Objects</h2>
+    <p id="demo"></p>
+    <script>
+        //create an const object
+        const car = {
+            type:"car", 
+            model:100, 
+            color:"white"
+        }; 
+        //change a property
+        car.color = "red"; 
+        //add a property
+        car.owner = "Rahim"; 
+        //document.getElementById("demo").innerHTML = car.color; 
+        document.getElementById("demo").innerHTML = "Car owner is " + car.owner; 
+    
+        /*
+            cannot reassign a object
+            const car = {type:"Fiat", model:"500", color:"white"};
+            car = {type:"Volvo", model:"EX60", color:"red"};    // ERROR
+        */
+    </script>
+</body>
+</html>
