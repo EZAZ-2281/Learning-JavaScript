@@ -1,1 +1,1 @@
-!(./Images-ect/pic_bulboff.gif)
+![test](./Images-ect/pic_bulboff.gif)
